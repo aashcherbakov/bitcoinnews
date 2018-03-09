@@ -7,21 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28B81F2F1B781BDF09DF4434 /* Pods_BitcoinNews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79FA9FCBCB92250EE25D7DE8 /* Pods_BitcoinNews.framework */; };
+		B633C8B72051C0DB008564A3 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B633C8B62051C0DB008564A3 /* Presenter.swift */; };
+		B633C8B92051C124008564A3 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B633C8B82051C124008564A3 /* BaseViewController.swift */; };
+		B633C8BC2051C7CF008564A3 /* FeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B633C8BB2051C7CF008564A3 /* FeedTableViewCell.swift */; };
+		B633C8BE2051C93A008564A3 /* LayoutExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B633C8BD2051C93A008564A3 /* LayoutExtensions.swift */; };
+		B633C8C02051FAB0008564A3 /* FeedTableViewSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = B633C8BF2051FAB0008564A3 /* FeedTableViewSource.swift */; };
+		B633C8C22051FB1D008564A3 /* ArticleDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = B633C8C12051FB1D008564A3 /* ArticleDisplay.swift */; };
+		B633C8C6205226B8008564A3 /* AppEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = B633C8C5205226B8008564A3 /* AppEnvironment.swift */; };
+		B633C8C8205226D8008564A3 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = B633C8C7205226D8008564A3 /* Router.swift */; };
+		B633C8CA2052270A008564A3 /* Destination.swift in Sources */ = {isa = PBXBuildFile; fileRef = B633C8C92052270A008564A3 /* Destination.swift */; };
+		B633C8CD20522D53008564A3 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B633C8CC20522D53008564A3 /* RootViewController.swift */; };
+		B63931972050ADDC00D6D9BE /* RSSParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63931962050ADDC00D6D9BE /* RSSParser.swift */; };
 		B65BEA4E2035024900B6B4D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65BEA4D2035024900B6B4D2 /* AppDelegate.swift */; };
-		B65BEA502035024900B6B4D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65BEA4F2035024900B6B4D2 /* ViewController.swift */; };
-		B65BEA532035024900B6B4D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B65BEA512035024900B6B4D2 /* Main.storyboard */; };
+		B65BEA502035024900B6B4D2 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65BEA4F2035024900B6B4D2 /* FeedViewController.swift */; };
 		B65BEA552035024900B6B4D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B65BEA542035024900B6B4D2 /* Assets.xcassets */; };
 		B65BEA582035024900B6B4D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B65BEA562035024900B6B4D2 /* LaunchScreen.storyboard */; };
+		B68FAF692050B032005F87CC /* RemoteResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68FAF682050B032005F87CC /* RemoteResource.swift */; };
+		B68FAF6C2051B37E005F87CC /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68FAF6B2051B37E005F87CC /* Article.swift */; };
+		B68FAF6E2051B387005F87CC /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68FAF6D2051B387005F87CC /* Feed.swift */; };
+		B68FAF702051B3F8005F87CC /* FeedConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68FAF6F2051B3F8005F87CC /* FeedConverter.swift */; };
+		B68FAF722051B452005F87CC /* NetworkResponseStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68FAF712051B452005F87CC /* NetworkResponseStatus.swift */; };
+		B68FAF762051B523005F87CC /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68FAF752051B523005F87CC /* FeedViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		79FA9FCBCB92250EE25D7DE8 /* Pods_BitcoinNews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BitcoinNews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A825003A1F2884CCD3057181 /* Pods-BitcoinNews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitcoinNews.release.xcconfig"; path = "Pods/Target Support Files/Pods-BitcoinNews/Pods-BitcoinNews.release.xcconfig"; sourceTree = "<group>"; };
+		B633C8B62051C0DB008564A3 /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
+		B633C8B82051C124008564A3 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		B633C8BB2051C7CF008564A3 /* FeedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTableViewCell.swift; sourceTree = "<group>"; };
+		B633C8BD2051C93A008564A3 /* LayoutExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutExtensions.swift; sourceTree = "<group>"; };
+		B633C8BF2051FAB0008564A3 /* FeedTableViewSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTableViewSource.swift; sourceTree = "<group>"; };
+		B633C8C12051FB1D008564A3 /* ArticleDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleDisplay.swift; sourceTree = "<group>"; };
+		B633C8C5205226B8008564A3 /* AppEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEnvironment.swift; sourceTree = "<group>"; };
+		B633C8C7205226D8008564A3 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		B633C8C92052270A008564A3 /* Destination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Destination.swift; sourceTree = "<group>"; };
+		B633C8CC20522D53008564A3 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		B63931962050ADDC00D6D9BE /* RSSParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSParser.swift; sourceTree = "<group>"; };
 		B65BEA4A2035024900B6B4D2 /* BitcoinNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitcoinNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B65BEA4D2035024900B6B4D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B65BEA4F2035024900B6B4D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B65BEA522035024900B6B4D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B65BEA4F2035024900B6B4D2 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		B65BEA542035024900B6B4D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B65BEA572035024900B6B4D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B65BEA592035024900B6B4D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B68FAF682050B032005F87CC /* RemoteResource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteResource.swift; sourceTree = "<group>"; };
+		B68FAF6B2051B37E005F87CC /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		B68FAF6D2051B387005F87CC /* Feed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
+		B68FAF6F2051B3F8005F87CC /* FeedConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedConverter.swift; sourceTree = "<group>"; };
+		B68FAF712051B452005F87CC /* NetworkResponseStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkResponseStatus.swift; sourceTree = "<group>"; };
+		B68FAF752051B523005F87CC /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
+		F6CD32D260532A564D680EF7 /* Pods-BitcoinNews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitcoinNews.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BitcoinNews/Pods-BitcoinNews.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +65,76 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28B81F2F1B781BDF09DF4434 /* Pods_BitcoinNews.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4E1C56D37751D8AD8D8011C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79FA9FCBCB92250EE25D7DE8 /* Pods_BitcoinNews.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B633C8B52051C06E008564A3 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				B633C8B62051C0DB008564A3 /* Presenter.swift */,
+				B633C8B82051C124008564A3 /* BaseViewController.swift */,
+				B633C8BD2051C93A008564A3 /* LayoutExtensions.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		B633C8BA2051C7C1008564A3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B633C8BB2051C7CF008564A3 /* FeedTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B633C8C32052269A008564A3 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				B63931962050ADDC00D6D9BE /* RSSParser.swift */,
+				B68FAF682050B032005F87CC /* RemoteResource.swift */,
+				B68FAF6F2051B3F8005F87CC /* FeedConverter.swift */,
+				B68FAF712051B452005F87CC /* NetworkResponseStatus.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		B633C8C4205226A6008564A3 /* Routing */ = {
+			isa = PBXGroup;
+			children = (
+				B633C8C7205226D8008564A3 /* Router.swift */,
+				B633C8C92052270A008564A3 /* Destination.swift */,
+			);
+			path = Routing;
+			sourceTree = "<group>";
+		};
+		B63931952050ADCB00D6D9BE /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				B633C8C4205226A6008564A3 /* Routing */,
+				B633C8C32052269A008564A3 /* Networking */,
+				B633C8C5205226B8008564A3 /* AppEnvironment.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		B65BEA412035024900B6B4D2 = {
 			isa = PBXGroup;
 			children = (
 				B65BEA4C2035024900B6B4D2 /* BitcoinNews */,
 				B65BEA4B2035024900B6B4D2 /* Products */,
+				C9023E30864CF5F15375AD93 /* Pods */,
+				4E1C56D37751D8AD8D8011C0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +149,55 @@
 		B65BEA4C2035024900B6B4D2 /* BitcoinNews */ = {
 			isa = PBXGroup;
 			children = (
+				B68FAF732051B4DC005F87CC /* Features */,
+				B68FAF6A2051B360005F87CC /* Models */,
+				B63931952050ADCB00D6D9BE /* Utilities */,
 				B65BEA4D2035024900B6B4D2 /* AppDelegate.swift */,
-				B65BEA4F2035024900B6B4D2 /* ViewController.swift */,
-				B65BEA512035024900B6B4D2 /* Main.storyboard */,
 				B65BEA542035024900B6B4D2 /* Assets.xcassets */,
 				B65BEA562035024900B6B4D2 /* LaunchScreen.storyboard */,
 				B65BEA592035024900B6B4D2 /* Info.plist */,
 			);
 			path = BitcoinNews;
+			sourceTree = "<group>";
+		};
+		B68FAF6A2051B360005F87CC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B68FAF6B2051B37E005F87CC /* Article.swift */,
+				B68FAF6D2051B387005F87CC /* Feed.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B68FAF732051B4DC005F87CC /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				B633C8B52051C06E008564A3 /* Shared */,
+				B68FAF742051B4EE005F87CC /* Feed */,
+				B633C8CC20522D53008564A3 /* RootViewController.swift */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		B68FAF742051B4EE005F87CC /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				B633C8BA2051C7C1008564A3 /* Views */,
+				B65BEA4F2035024900B6B4D2 /* FeedViewController.swift */,
+				B633C8BF2051FAB0008564A3 /* FeedTableViewSource.swift */,
+				B68FAF752051B523005F87CC /* FeedViewModel.swift */,
+				B633C8C12051FB1D008564A3 /* ArticleDisplay.swift */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		C9023E30864CF5F15375AD93 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F6CD32D260532A564D680EF7 /* Pods-BitcoinNews.debug.xcconfig */,
+				A825003A1F2884CCD3057181 /* Pods-BitcoinNews.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +207,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B65BEA5C2035024900B6B4D2 /* Build configuration list for PBXNativeTarget "BitcoinNews" */;
 			buildPhases = (
+				A4377C322CE64E26F8C400F5 /* [CP] Check Pods Manifest.lock */,
 				B65BEA462035024900B6B4D2 /* Sources */,
 				B65BEA472035024900B6B4D2 /* Frameworks */,
 				B65BEA482035024900B6B4D2 /* Resources */,
+				044539F2A911486F74A2DB75 /* [CP] Embed Pods Frameworks */,
+				37F373195145B39A87A22DCC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,33 +264,99 @@
 			files = (
 				B65BEA582035024900B6B4D2 /* LaunchScreen.storyboard in Resources */,
 				B65BEA552035024900B6B4D2 /* Assets.xcassets in Resources */,
-				B65BEA532035024900B6B4D2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		044539F2A911486F74A2DB75 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BitcoinNews/Pods-BitcoinNews-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireRSSParser/AlamofireRSSParser.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireRSSParser.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BitcoinNews/Pods-BitcoinNews-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		37F373195145B39A87A22DCC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BitcoinNews/Pods-BitcoinNews-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4377C322CE64E26F8C400F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BitcoinNews-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B65BEA462035024900B6B4D2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B65BEA502035024900B6B4D2 /* ViewController.swift in Sources */,
+				B65BEA502035024900B6B4D2 /* FeedViewController.swift in Sources */,
+				B633C8C22051FB1D008564A3 /* ArticleDisplay.swift in Sources */,
+				B633C8CD20522D53008564A3 /* RootViewController.swift in Sources */,
+				B633C8BC2051C7CF008564A3 /* FeedTableViewCell.swift in Sources */,
+				B633C8C02051FAB0008564A3 /* FeedTableViewSource.swift in Sources */,
+				B633C8BE2051C93A008564A3 /* LayoutExtensions.swift in Sources */,
+				B633C8C6205226B8008564A3 /* AppEnvironment.swift in Sources */,
+				B68FAF6E2051B387005F87CC /* Feed.swift in Sources */,
+				B633C8B92051C124008564A3 /* BaseViewController.swift in Sources */,
+				B63931972050ADDC00D6D9BE /* RSSParser.swift in Sources */,
+				B68FAF722051B452005F87CC /* NetworkResponseStatus.swift in Sources */,
+				B633C8C8205226D8008564A3 /* Router.swift in Sources */,
+				B633C8B72051C0DB008564A3 /* Presenter.swift in Sources */,
 				B65BEA4E2035024900B6B4D2 /* AppDelegate.swift in Sources */,
+				B68FAF692050B032005F87CC /* RemoteResource.swift in Sources */,
+				B633C8CA2052270A008564A3 /* Destination.swift in Sources */,
+				B68FAF702051B3F8005F87CC /* FeedConverter.swift in Sources */,
+				B68FAF6C2051B37E005F87CC /* Article.swift in Sources */,
+				B68FAF762051B523005F87CC /* FeedViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		B65BEA512035024900B6B4D2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B65BEA522035024900B6B4D2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B65BEA562035024900B6B4D2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -272,9 +477,11 @@
 		};
 		B65BEA5D2035024900B6B4D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6CD32D260532A564D680EF7 /* Pods-BitcoinNews.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KLYA89ALPQ;
 				INFOPLIST_FILE = BitcoinNews/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.1lastDay.BitcoinNews;
@@ -286,9 +493,11 @@
 		};
 		B65BEA5E2035024900B6B4D2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A825003A1F2884CCD3057181 /* Pods-BitcoinNews.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KLYA89ALPQ;
 				INFOPLIST_FILE = BitcoinNews/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.1lastDay.BitcoinNews;

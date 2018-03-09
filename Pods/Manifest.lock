@@ -1,0 +1,21 @@
+PODS:
+  - Alamofire (4.7.0)
+  - AlamofireRSSParser (2.1.0):
+    - Alamofire
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+
+DEPENDENCIES:
+  - Alamofire (= 4.7)
+  - AlamofireRSSParser (= 2.1.0)
+  - SDWebImage (= 4.0)
+
+SPEC CHECKSUMS:
+  Alamofire: 907e0a98eb68cdb7f9d1f541a563d6ac5dc77b25
+  AlamofireRSSParser: 5fed94de51ff88ea48496d7dfa6e3274100d90d6
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+
+PODFILE CHECKSUM: deaa2c64c48ecd0a0ee541026ef1373b96490133
+
+COCOAPODS: 1.4.0
