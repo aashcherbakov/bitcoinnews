@@ -10,17 +10,17 @@ import Foundation
 
 public class FeedViewModel {
 
-    private let feedPath = "https://cryptocurrencynews.com/feed/"
-    private let resource: Resource
-    private weak var presenter: Presenter?
-    private var feed: Feed?
-    private(set) var articleDisplays: [ArticleDisplay]?
-
     public enum State {
         case loading
         case complete
         case error
     }
+
+    private let feedPath = "https://cryptocurrencynews.com/feed/"
+    private let resource: Resource
+    private weak var presenter: Presenter?
+    private var feed: Feed?
+    private(set) var articleDisplays: [ArticleDisplay]?
 
     var onStateChange: ((State) -> Void)!
 
@@ -29,7 +29,7 @@ public class FeedViewModel {
         self.presenter = presenter
     }
 
-    public func loadFeed() {
+    func loadFeed() {
         presenter?.showActivityIndicator()
         resource.getFeed(path: feedPath, completion: { [weak self] (feed, status) in
             self?.presenter?.hideActivityIndicator()
@@ -45,10 +45,8 @@ public class FeedViewModel {
         })
     }
 
-    public func createArticleDisplays() -> [ArticleDisplay] {
-        guard let feed = feed, let articles = feed.articles else {
-            return []
-        }
+    func createArticleDisplays() -> [ArticleDisplay] {
+        guard let feed = feed, let articles = feed.articles else { return [] }
 
         return articles.map { article in
             return ArticleDisplay(

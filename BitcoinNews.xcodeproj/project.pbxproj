@@ -124,6 +124,7 @@
 				B633C8C4205226A6008564A3 /* Routing */,
 				B633C8C32052269A008564A3 /* Networking */,
 				B633C8C5205226B8008564A3 /* AppEnvironment.swift */,
+				B633C8CC20522D53008564A3 /* RootViewController.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -174,7 +175,6 @@
 			children = (
 				B633C8B52051C06E008564A3 /* Shared */,
 				B68FAF742051B4EE005F87CC /* Feed */,
-				B633C8CC20522D53008564A3 /* RootViewController.swift */,
 			);
 			path = Features;
 			sourceTree = "<group>";
